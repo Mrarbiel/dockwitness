@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Environment variables
+.env*
+!.env.example
+
+# Testing and local artifacts
+coverage/
+test-results/
+playwright-report/
+blob-report/
+artifacts/
+supabase/.temp/
+
+# OS and IDE files
+.DS_Store
+*.pem
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local tooling and staged release assets
+.tools/
+.release-assets/
+
+# Teamwork and agent metadata
+.agents/
+
+# Submission folder and working drafts
+submission/
+
+# Binary media dumps & backups
+*.mp4
+*.pptx
+*.pdf
+# Vercel
+.vercel/
+.vercelignore
+

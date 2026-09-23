@@ -1,0 +1,10 @@
+[allowlist]
+description = "Ignore untracked local build and node artifacts, and mock test tokens"
+paths = [
+  '''.next''',
+  '''node_modules''',
+  '''.git''',
+  '''.env.local''',
+  '''tests/assemblyai/challenger-m1-2-stress.test.ts''',
+  '''submission/scripts/bin'''
+]
