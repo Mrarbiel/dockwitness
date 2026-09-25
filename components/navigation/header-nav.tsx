@@ -11,11 +11,6 @@ interface NavItem {
 
 const NAV_ITEMS: NavItem[] = [
   {
-    href: "/demo",
-    label: "Demo",
-    matches: (pathname: string) => pathname.startsWith("/demo"),
-  },
-  {
     href: "/receive/shipment-po44891",
     label: "Cockpit",
     matches: (pathname: string) => pathname.startsWith("/receive"),
