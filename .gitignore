@@ -46,6 +46,11 @@ submission/
 *.mp4
 *.pptx
 *.pdf
+# Video generator working directory
+video/
+public/video-assets/
+remotion.config.ts
+dockwitness-prospect-demo-*.md
 # Vercel
 .vercel/
 .vercelignore
